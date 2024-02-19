@@ -1,0 +1,85 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  width: 360px;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+}
+
+.input-delay {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.input-delay:hover,
+.input-delay:focus {
+  border: 1px solid #000000;
+}
+
+fieldset {
+  border-radius: 4px;
+  border-color: #808080;
+  display: flex;
+  margin: 0;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 24px;
+}
+
+.label-radio {
+  display: flex;
+  width: 100%;
+}
+
+.input-radio {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+fieldset:hover,
+fieldset:focus {
+  border-color: #000000;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.notif-button {
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.notif-button:hover,
+.notif-button:focus {
+  background-color: #6c8cff;
+}

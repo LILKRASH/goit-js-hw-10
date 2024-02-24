@@ -1,2 +1,0 @@
-import"./assets/styles-ae6d8d4d.js";import{i as o}from"./assets/vendor-77e16229.js";const n=document.querySelector("form"),m=document.querySelector(".input-delay"),i=document.querySelector(".input-radio");n.addEventListener("submit",c);function c(r){r.preventDefault();const t=parseInt(m.value,10);new Promise((e,s)=>{setTimeout(()=>{i.checked&&i.value==="fulfilled"?e(t):s(t)},t)}).then(e=>{o.success({title:"OK",message:`✅ Fulfilled promise in ${e}ms`})}).catch(e=>{o.error({title:"Error",message:`❌ Rejected promise in ${e}ms`})})}
-//# sourceMappingURL=commonHelpers2.js.map
